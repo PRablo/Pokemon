@@ -6,7 +6,7 @@ from game import Game
 
 pygame.init()
 
-screen=pygame.display.set_mode((600,400))
+screen=pygame.display.set_mode((config.SCREEN_WIDTH,config.SCREEN_HEIGHT))
 
 pygame.display.set_caption("Pokemon Clone")
 
@@ -16,6 +16,6 @@ game = Game(screen)
 game.set_up()
 
 while game.game_state == GameState.RUNNING:
-	clock.tick(10)	#framerate
+	clock.tick(20)	#framerate
 	game.update()
 	pygame.display.flip()
