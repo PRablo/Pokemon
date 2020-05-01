@@ -1,3 +1,1 @@
-# Pokemon
-asd
-ss
+# Pokemon python project
