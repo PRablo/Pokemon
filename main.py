@@ -16,6 +16,6 @@ game = Game(screen)
 game.set_up()
 
 while game.game_state == GameState.RUNNING:
-	clock.tick(1)	#framerate
+	clock.tick(10)	#framerate
 	game.update()
 	pygame.display.flip()
