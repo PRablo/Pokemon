@@ -79,8 +79,9 @@ class Game:
 		if new_position[0]<0 or new_position[0] > (len(self.map[0]) -1 ):
 			return
 		
+
 		
-		if new_position[1]<0 or new_position[1] > (len(self.map[1]) -1 ):
+		if new_position[1]<0 or new_position[1] > (len(self.map) -1 ):
 			return
 		
 		
